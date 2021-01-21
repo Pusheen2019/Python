@@ -1,0 +1,10 @@
+a = input('Digite alguma coisa: ')
+
+print('O tipo primitivo é ', type(a))
+print('{} é composto somente de espaços ? {}'.format(a, a.isspace()))
+print('{} é composto somente de números ? {}'.format(a, a.isnumeric()))
+print('{} é composto somente de letras ? {}'.format(a, a.isalpha()))
+print('{} é composto apenas por letras e números ? {}'.format(a, a.isalnum()))
+print('{} é composto somente por caractéres maiúsculos ? {}'.format(a, a.isupper()))
+print('{} é composto somente por caractéres minísculos ? {}'.format (a, a.islower()))
+print('{} é composto somente por letras maiúsculas e minúsculas ? {}'.format(a, a.istitle()))
